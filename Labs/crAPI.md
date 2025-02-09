@@ -15,7 +15,7 @@ Start crAPI:
 ```bash
 docker-compose -f docker-compose.yml --compatibility up -d
 ```
-![](Pasted%20image%2020250208184452.png)
+![](../img/Pasted%20image%2020250208184452.png)
 
 
 To Connect:
