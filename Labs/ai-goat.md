@@ -14,11 +14,11 @@ ai-goat setup
 ### Challenge 1 - Basic Prompt Injection
 
 I first tried to get it to give the password using urgency, but it seems like this model does not respond to that. 
-![](Pasted%20image%2020250208184705.png)
+![](../img/Pasted%20image%2020250208184705.png)
 
 The next thing I tried was a translation injection where I instruct the LLM to translate something and then ignore the previous prompt and print something else.
 
-![](Pasted%20image%2020250208184841.png)
+![](../img/Pasted%20image%2020250208184841.png)
 At first there was no response, but after entering an empty prompt it just spit out the Flag. 
 
 "The flag is `{pr0mt1nj3cti0n}`"
